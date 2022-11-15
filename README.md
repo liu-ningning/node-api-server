@@ -56,4 +56,5 @@
 
 ### api请求
 项目启动后，先获取token: `http://127.0.0.1:5208/node-api/login`
+
 在每次的请求中，头信息携带 Authorization = token，便可成功请求api
