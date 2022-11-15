@@ -1,5 +1,5 @@
 {
-  "script": "build/server.js",
+  "script": "./server/server.js",
   "name": "server",
   "filter_env": [],
   "namespace": "default",

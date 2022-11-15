@@ -2,9 +2,11 @@
   "name": "node-api-server",
   "version": "0.0.1",
   "description": "node koa api service",
-  "main": "build/server.js",
+  "main": "./server/server.js",
   "scripts": {
     "start": "NODE_ENV=local nodemon --watch ./server --ext ts --exec nodemon ./server/server.ts",
+    "start:dev": "NODE_ENV=development nodemon --watch ./server --ext ts --exec nodemon ./server/server.ts",
+    "start:pro": "NODE_ENV=production nodemon --watch ./server --ext ts --exec nodemon ./server/server.ts",
     "check": "eslint --cache --ext .ts,.js,.jsx . --fix",
     "test": "node ./test/npm-script.ts",
     "fix:qconf": "ln -s /usr/local/qconf/lib/libqconf.dylib libqconf.dylib"
