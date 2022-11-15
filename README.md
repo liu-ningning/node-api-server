@@ -14,7 +14,7 @@
 
 ## 项目地址
 
-`node-api-server` <https://git.ourbluecity.com/administration/node-api-server.git>
+`node-api-server` <https://github.com/liu-ningning/node-api-server.git>
 
 ## 项目目录
 

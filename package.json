@@ -1,7 +1,7 @@
 {
   "name": "node-api-server",
   "version": "0.0.1",
-  "description": "normal koa api service without graphQL",
+  "description": "node koa api service",
   "main": "build/server.js",
   "scripts": {
     "start": "NODE_ENV=local nodemon --watch ./server --ext ts --exec nodemon ./server/server.ts",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/liu-ningning/node-api-server.git"
   },
   "keywords": [],
   "author": "",
