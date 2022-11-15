@@ -1,0 +1,17 @@
+{
+  "events": {
+    "restart": "osascript -e 'display notification \"node-api-server restarted\" with title \"nodemon\"'"
+  },
+  "ext": "ts tsx js json",
+  "ignore": [
+    "build/*",
+    "logs/*",
+    "public/*",
+    "node_modules/*"
+  ],
+  "quiet": true,
+  "verbose": true,
+  "watch": [
+    "server/*"
+  ]
+}

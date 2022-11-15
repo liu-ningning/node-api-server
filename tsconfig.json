@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es2018",
+    "noImplicitAny": false,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "allowJs": true,
+    "outDir": "build",
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "node_modules/*",
+        "server/system/declare/*"
+      ]
+    },
+    "lib": [
+      "es2018"
+    ],
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "server/**/*"
+  ]
+}
