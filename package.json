@@ -9,7 +9,7 @@
     "start:pro": "NODE_ENV=production nodemon --watch ./server --ext ts --exec nodemon ./server/server.ts",
     "check": "eslint --cache --ext .ts,.js,.jsx . --fix",
     "test": "node ./test/npm-script.ts",
-    "fix:qconf": "ln -s /usr/local/qconf/lib/libqconf.dylib libqconf.dylib"
+    "build:ts": "rm -rf ./build/* && tsc"
   },
   "repository": {
     "type": "git",

@@ -1,6 +1,6 @@
 {
   "name": "node-api-server",
-  "script": "npm run start:dev",
+  "script": "/project/node-api-server/build/server.js",
   "error_file": "/data/logs/pm2/node-api-server/error.log",
   "out_file": "/data/logs/pm2/node-api-server/out.log",
   "log_date_format": "YYYY-MM-DD HH:mm Z",
