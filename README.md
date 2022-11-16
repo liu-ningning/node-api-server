@@ -1,10 +1,10 @@
 # node-api-server
 
-基于 nodeJs 搭建的 API 服务
+基于 nodeJs+typescript 搭建的 API 服务
 
 # 介绍
 
-基于 `nodejs` 搭建的 API 服务
+基于 `nodejs` + `typescript` 搭建的 API 接口服务
 
 ## 版本依赖
 
@@ -28,7 +28,7 @@
 | server            | 服务端 ts 代码                                  | -    |
 | .eslintrc         | ESLint                                          | -    |
 | .gitignore        | Git                                             | -    |
-| .npmrc            | 私有包配置                                  | -    |
+| .npmrc            | 私有包配置                                      | -    |
 | package-lock.json | 请保持它的版本与 package.json 一致(npm ci 使用) | -    |
 | package.json      | Package                                         | -    |
 | tsconfig.json     | TypeScript 项配置文件                           | -    |
@@ -54,12 +54,15 @@
 ```bash
   git clone https://github.com/liu-ningning/node-api-server.git
 ```
+
 ```bash
   cd node-api-server
 ```
+
 ```bash
   npm install
 ```
+
 ```bash
   npm run start
 ```
@@ -73,14 +76,19 @@
 ### pm2 管理项目
 
 项目部署前，需先 build 编译后启动
+
 ```bash
   npm run build:ts
 ```
+
 测试环境启动:
+
 ```bash
   pm2 start /pm2/development.json
 ```
+
 线上环境启动:
+
 ```bash
   pm2 start /pm2/production.json
 ```
