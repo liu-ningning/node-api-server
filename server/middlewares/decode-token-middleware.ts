@@ -57,7 +57,7 @@ const checkUser: (obj: CheckUserApi) => Promise<any | null> = async obj => {
 const check = tools.compose(checkUser, checkToken)
 
 export default async (ctx: Context, next: any) => {
-  console.log('[api-path]:', ctx.path)
+  console.log('👉[api-path]:', ctx.path)
   if (isExpectRouter(ctx.path)) {
     await next()
     return
